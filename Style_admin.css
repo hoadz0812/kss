@@ -1,0 +1,99 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+.head img{
+	padding-left: 50px;
+}
+.head a{
+	padding-right: 50px;
+	font-size: 20px;
+	text-decoration: none;
+}
+.menu{
+	width: auto;
+	height: 50px;
+	background: #ffd4aa;
+}
+.menu > ul > li{
+	list-style: none;
+	float: left;
+	position: relative;
+}
+.menu > ul > li > a{
+	text-decoration: none;
+	color: #000000;
+	padding: 0px 20px 0px 20px;
+	line-height: 50px;
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+}
+.menu > ul > li > a:hover{
+	background: #000000;
+	color: white;
+}
+ul.submenu {
+	width: 250px;
+	background: #ffd4aa;
+	display: none;
+	position: absolute;
+}
+ul.submenu li{
+	list-style: none;
+}
+ul.submenu li a{
+	text-decoration: none;
+	color: #000000;
+	padding-left: 20px;
+	line-height: 40px;
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+	border-top: 1px solid #FFFFFF;
+}
+ul.submenu li a:hover{
+	background: #000000;
+	color: white;
+}
+.menu li:hover ul.submenu{
+	display: block;
+}
+.main{
+	font-size: 20px;
+}
+.main input{
+	font-size: 20px;
+}
+.main select{
+	font-size: 20px;
+}
+.main a{
+	text-decoration: none;
+}
+.main input{
+	font-family:"Times New Roman";
+}
+.title{
+	font-size: 60pt;
+	font: bold;
+	font-family: Algerian;
+	color: #FF9E00;
+	text-align: center;
+}
+.text{
+	width: 99.6%;
+}
+.main table{
+	border-collapse: collapse;
+}
+.main table tr td{
+	text-align: center;
+}
+.main table tr{
+	height: 50px;
+}
+.main p{
+	border-radius: 1px;
+}
